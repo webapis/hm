@@ -1,0 +1,12 @@
+name: hm-img
+on:
+   workflow_dispatch:
+env:
+  GH_TOKEN: ${{secrets.GH_TOKEN}}
+jobs:
+  hm_job:
+    if: always()
+    uses: ./.github/workflows/reusable-hm.yml
+    with:
+      marka: hm
+    secrets: inherit
