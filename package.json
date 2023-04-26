@@ -4,14 +4,13 @@
   "private": true,
   "scripts": {
     "fetchImages": "node utils/fetchRemoteImagesInParallel.js",
-    "cropImages": "node utils/cropImages.js",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
-    "biraradamoda": "1.2.1",
+    "biraradamoda": "1.2.2",
     "decompress": "^4.2.1",
     "decompress-targz": "^4.1.1",
     "dotenv": "^16.0.3",
